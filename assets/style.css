@@ -1,0 +1,30 @@
+.container{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: repeat(2, 100px);
+}
+.one{
+    background-color: darksalmon; 
+}
+.two{
+    background-color: rgb(126, 233, 122); 
+}
+.three{
+    background-color: darksalmon; 
+}
+.four{
+    background-color: rgb(126, 233, 122); 
+}
+.five{
+    background-color: darksalmon; 
+}
+.six{
+    background-color: rgb(126, 233, 122); 
+}
+.foto{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
